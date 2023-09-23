@@ -2,15 +2,14 @@
 
 Wanted to test to see if I could create an EventBridge rule with only emojis. Turns out it works.
 
-`npm install && npm run cdk deploy` to deploy the stack (once your AWS credentials are in place)
+## To run
 
-The `cdk.json` file tells the CDK Toolkit how to execute your app.
+`npm install && npm run cdk deploy` to deploy the stack (once your AWS credentials are in place) 💻
 
-## Useful commands
+Put events on the default event bus with either the [CLI](https://awscli.amazonaws.com/v2/documentation/api/latest/reference/events/put-events.html), and AWS SDK, or in the AWS console.
 
-- `npm run build` compile typescript to js
-- `npm run watch` watch for changes and compile
-- `npm run test` perform the jest unit tests
-- `cdk deploy` deploy this stack to your default AWS account/region
-- `cdk diff` compare deployed stack with current state
-- `cdk synth` emits the synthesized CloudFormation template
+The event pattern is `detailType: ['💩']` and `source: ['🐶']`.
+
+Check the Cloudwatch logs of the target lambda to see the result 👀
+
+Profit 🎉
