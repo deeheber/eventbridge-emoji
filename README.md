@@ -1,6 +1,8 @@
-# Welcome to your CDK TypeScript project
+# eventbridge-emoji
 
-This is a blank project for CDK development with TypeScript.
+Wanted to test to see if I could create an EventBridge rule with only emojis. Turns out it works.
+
+`npm install && npm run cdk deploy` to deploy the stack (once your AWS credentials are in place)
 
 The `cdk.json` file tells the CDK Toolkit how to execute your app.
 
