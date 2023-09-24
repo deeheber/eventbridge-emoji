@@ -2,6 +2,8 @@
 
 Wanted to test to see if I could create an EventBridge rule with only emojis. Turns out it works.
 
+[Blog post](https://www.danielleheberling.xyz/blog/eventbridge-emoji/)
+
 ## To run
 
 `npm install && npm run cdk deploy` to deploy the stack (once your AWS credentials are in place) 💻
